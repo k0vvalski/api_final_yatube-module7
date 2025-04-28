@@ -40,3 +40,7 @@ Simple JWT
   python3.11 yatube_api/manage.py migrate  
   python3.11 yatube_api/manage.py runserver 8001
 ```
+### 7. Документация будет доступна:
+```
+  http://localhost:8001/
+```
