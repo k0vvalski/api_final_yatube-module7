@@ -10,6 +10,6 @@ urlpatterns = [
         TemplateView.as_view(template_name='redoc.html'),
         name='redoc'
     ),
-    # Редирект с корневого URL на /redoc/
+
     path('', RedirectView.as_view(url='/redoc/', permanent=False)),
 ]
